@@ -165,7 +165,7 @@ overflow-x: hidden;
 
 }
 .hero {
-    background-image: url('img/hero.jpeg'); /* Replace with your image URL */
+    background-image: url('hero.jpeg'); /* Replace with your image URL */
     background-size: cover;
     position: relative;
 	width: 100%;
