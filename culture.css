@@ -90,13 +90,13 @@ overflow-x: hidden;
 }
 
 .img-box:hover .caption {
-
+cursor: pointer;
   transform: translateY(-20px);
   opacity: 1.0;
 }
 
 .img-box:hover {
-  cursor: pointer;
+  
 }
 
 .caption > p:nth-child(2) {
@@ -108,9 +108,9 @@ overflow-x: hidden;
   text-align: center;
   color: #FFE151;
   font-family: 'Adobe Arabic', serif;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1.2;
-	font-weight: 800;
+	font-weight: 600;
 }
 
 .start-header {
