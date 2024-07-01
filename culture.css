@@ -112,7 +112,6 @@ cursor: pointer;
   line-height: 1.2;
 	font-weight: 500;
 }
-
 .start-header {
 	opacity: 1;
 	transform: translateY(0);
@@ -142,6 +141,8 @@ cursor: pointer;
 	transition : all 0.3s ease-out;
 }
 .navbar{
+	
+	font-size: 20px;
 	padding-right: 20px;
 }
 .navbar-brand img{
@@ -196,15 +197,22 @@ cursor: pointer;
 .nav-link{
 	color: #212121 ;
 	font-weight: 500;
+	font-size: 20px;
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
 	color: #2E2727 ;
+	font-size: 20px;
+	font-weight: 500;
 }
 .nav-item.active .nav-link{
-	color: #777 ;
+	color: #FFBB2E ;
 }
 .nav-link {
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 20px;
 	position: relative;
 	padding: 5px ;
 	display: inline-block;
@@ -231,7 +239,6 @@ cursor: pointer;
 	position: relative;
     transition: all 200ms linear;
 }
-
 /* #Primary style
 ================================================== */
 
