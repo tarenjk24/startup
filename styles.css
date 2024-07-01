@@ -108,10 +108,13 @@ overflow-x: hidden;
 .nav-link{
 	color: #212121 ;
 	font-weight: 500;
+	font-size: 25px;
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
 	color: #2E2727 ;
+	font-size: 20px;
+	font-weight: 500;
 }
 .nav-item.active .nav-link{
 	color: #FFBB2E ;
