@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
@@ -14,8 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- https://favicon.io/emoji-favicons/money-bag/ -->
-    <link rel="icon" type="image/x-icon" href="img/image.png">
-    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/static/img/image.png">
+    <link href="/static/styles.css" rel="stylesheet">
     <title>Chabab'in about us</title>
   </head>
   <body>
@@ -27,31 +27,28 @@
 
               <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="index">CHABAB'IN</a>
+                  <a class="navbar-brand" href="/templates/index.html">CHABAB'IN</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="aboutus">About us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="cooking">Events and Formations</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="cultureHS">Cultural Houses</a>
-                      </li>
 
+                        <li class="nav-item">
+                          <a class="nav-link" href="aboutus.html">حولنا</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="cooking.html">الفعاليات والتكوين</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="cultureHS.html">المنظمات الثقافية</a>
+                        </li>
 
-                    </ul>
-                    <form class="d-flex" role="search">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#section1"> انضم إلينا</a>
+                        </li>
+                      </ul>
 
-                      <button class="btn btn-outline-success" type="submit"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfebOOjIXZi9m7Zs4BLq3RVcUZedkCAeliVpu_jZMh4Eab42g/viewform?embedded=true"  target="_blank">Join Us</a></button>
-                    </form>
                   </div>
                 </div>
               </nav>
@@ -67,20 +64,13 @@
       <div class="container">
         <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
           <div class="col-12 col-lg-6 col-xl-5">
-            <img class="img-fluid rounded" loading="lazy" src="img/cult.jpg" alt="About 1" style="margin: 20px;">
+            <img class="img-fluid rounded" loading="lazy" src="/static/img/cult.jpg" alt="About 1" style="margin: 20px;">
           </div>
           <div class="col-12 col-lg-6 col-xl-7">
             <div class="row justify-content-xl-center">
               <div class="col-12 col-xl-11">
-                <h2 class="mb-3">Our Mission</h2>
-                <p class="mb-5"> At Chabab'in, our mission is to illuminate the richness and diversity of
-                   cultures around the world. We believe that understanding and appreciating different cultures can
-                    foster global unity and peace. Through our platform, we aim to provide a window into the vibrant
-                    tapestry of global cultures, showcasing regional events, traditions, arts, and cuisines.
-                    We are committed to creating a space where cultural exchange thrives and where everyone can
-                     embark on a journey of cultural exploration. Join us as we celebrate the world’s cultural
-                     diversity and work towards building bridges of understanding and respect.
-                  Together, we can make the world a more connected and inclusive place. Welcome aboard! 😊 </p>
+                <h2 class="mb-3">أهدافنا</h2>
+
               </div>
             </div>
           </div>
@@ -89,14 +79,14 @@
     </section>
 
 <!-- members -->
-<div class="container" id="section1">
+<div class="container" >
 
   <div class="row">
     <h1 class="mb-3">Our roles</h1>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="img/members/MM.jpeg">
+          <img class="img-fluid" src="/static/img/members/MM.jpeg">
         </div>
         <div class="team-content">
           <h3 class="name">Qods Bouchiba</h3>
@@ -108,7 +98,7 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="img/members/m5.jpeg">
+          <img class="img-fluid" src="/static/img/members/m5.jpeg">
         </div>
         <div class="team-content">
           <h3 class="name">dorra hjij</h3>
@@ -120,7 +110,7 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="img/members/m4.jpeg">
+          <img class="img-fluid" src="/static/img/members/m4.jpeg">
         </div>
         <div class="team-content">
           <h3 class="name">Eya Bahri</h3>
@@ -132,7 +122,7 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="img/members/m3.jpeg">
+          <img class="img-fluid" src="/static/img/members/m3.jpeg">
         </div>
         <div class="team-content">
           <h3 class="name">Med Ghofran Jelassi</h3>
@@ -144,7 +134,7 @@
     <div class="col-6 ">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="img/members/m2.jpeg">
+          <img class="img-fluid" src="/static/img/members/m2.jpeg">
         </div>
         <div class="team-content">
           <h3 class="name">Emna Belkhayrat</h3>
@@ -156,7 +146,7 @@
     <div class="col-6 ">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="img/members/m1.jpeg">
+          <img class="img-fluid" src="/static/img/members/m1.jpeg">
         </div>
         <div class="team-content">
           <h3 class="name">Med Omar Abidi</h3>
@@ -187,27 +177,32 @@
           </div>
         </div>
       </section>
-
-    <!-- footer and social media section -->
-    <div class="footer">
-      <div class="contact">
-        <p>contact Us</p>
-        <p>
-          <a href="#" target="_blank">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i class="fa-brands fa-youtube"></i>
-          </a>
-        </p>
-      </div>
-      <div class="copyright">
-        <p>© 2024 created by Eter7 </p>
-      </div>
+   <!-- footer and social media section -->
+   <footer class="footer">
+    <div class="row">
+    <div class=".col-6 .col-md-4 contact">
+      <p>اتصل بنا</p>
+      <p>
+        <a href="https://www.facebook.com/share/KDHjfrh9BoYyZXif/?mibextid=qi2Omg" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/chabeb.in_?igsh=MWxiY2EzeHhuN3ZnZw==" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://m.youtube.com/@ChabebIn?si=fjsHu4JsOugVt5w3" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://www.tiktok.com/@chabebin?_t=8mqFgqYqtbq&_r=1" target="_blank">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </p>
     </div>
+
+  </div>
+    <div class="copyright">
+      <p>© 2024 created by Eter7 </p>
+    </div>
+  </footer>
     <script>
 
 
