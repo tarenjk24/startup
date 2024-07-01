@@ -54,6 +54,8 @@ overflow-x: hidden;
 	transition : all 0.3s ease-out;
 }
 .navbar{
+	font-weight: 500;
+	font-size: 40px;
 	padding-right: 20px;
 }
 .navbar-brand img{
@@ -108,7 +110,7 @@ overflow-x: hidden;
 .nav-link{
 	color: #212121 ;
 	font-weight: 500;
-	font-size: 25px;
+	font-size: 40px;
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
@@ -120,6 +122,8 @@ overflow-x: hidden;
 	color: #FFBB2E ;
 }
 .nav-link {
+	font-weight: 500;
+	font-size: 40px;
 	position: relative;
 	padding: 5px ;
 	display: inline-block;
